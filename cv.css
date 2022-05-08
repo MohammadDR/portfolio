@@ -1,0 +1,85 @@
+body,html{
+   
+    padding: 0;
+    margin: 0;
+    
+}
+.education h2 , .language h2 ,.digital-skills h2 , .projects h2 , .other-skills h2 , .personal-features h2{
+    color: rgb(2, 2, 138);
+    font-family: 'Caveat', cursive;
+}
+.f-n-style{
+    font-family: 'Lobster', cursive;
+
+}
+.dt{
+    color: rgb(85, 179, 233);
+    font-size: 25px;
+}
+.container1{
+    padding-left: 50px;
+}
+.dd{
+    font-size: 16px;
+}
+ .aqua{
+    display: inline-block;
+    padding: 10px 287px 10px 10px;
+    color: rgb(85, 179, 233) ;
+    font-size: large;
+
+   
+}
+.cardpadleft{
+    padding-left: 56px;
+}
+.dd1{
+    display: inline-block;
+    padding:10px;
+    font-style: italic;
+}
+.digital-skills p , .other-skills p{
+    display: block;
+    
+    font-weight: bold;
+}
+.digital-skills ul , .other-skills ul{
+    padding-left: 45px;
+}
+.projects dt {
+    margin: 10px;
+    font-weight: bold;
+}
+.projects dd{
+    margin: 10px;
+    font-style: italic;
+
+}
+.personal-features p{
+    display: block;
+    padding-left: 30px;
+    
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* responsive
+------------------------------*/
+@media screen and (max-width:558px)
+{
+    .my-img{
+        position: relative;
+        left: -92px;
+    }
+} 
+@media screen and (min-width:1042px) {
+    .border-right{
+        border-right: 2px solid gray;
+    }
+    
+}
+
+
+ 
+
